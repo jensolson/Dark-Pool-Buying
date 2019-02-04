@@ -18,8 +18,8 @@ def darkPoolBuying():
 
     for x in tqdm(pd.date_range(start=last_idx, end=pd.Timestamp.today(), freq='D')):
         year = str(x.date().year)
-        month = str(x.date().month)
-        day = str(x.date().day)
+        month = str(x.date().month).zfill(2)
+        day = str(x.date().day).zfill(2)
         try:
             url = 'http://regsho.finra.org/FNSQshvol'+year+month+day+'.txt'
             df = pd.read_csv(url, sep='|', dtype={'ShortVolume': np.float64,
