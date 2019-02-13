@@ -3,4 +3,4 @@ Calculates estimate of dark pool buying index ("DIX") based on publicly availabl
 
 Dependencies: pandas, numpy, tqdm
 
-
+![Dark Pool Buying Index](dpi.png)
