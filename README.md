@@ -3,6 +3,6 @@ Calculates estimate of dark pool buying index ("DIX") based on publicly availabl
 
 Dependencies: pandas, numpy, tqdm
 
-2017-2019 YTD data with exponential moving averages shown below. Note that a long downtrend in dark pool buying preceded the February 2018 S&P 500 sell-off. 
+2017-2019 YTD data with exponential moving averages shown below:
 
 ![Dark Pool Buying Index](dpi.png)
